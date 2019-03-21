@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import "font-awesome/scss/fontawesome";
+@import "font-awesome/scss/brands";
+@import "font-awesome/scss/solid";
+
+//BODY
+$body-color: #8d8d8d;
+
+//COLORS
+$primary-color: #5A2360;
+$secondary-color: #141214;
+$theme-colors:(
+    "primary" : $primary-color,
+    "secondary" : $secondary-color
+    );
+
+//FONT FAMILY
+$primary-font: 'Playfair Display', serif;
+$secondary-font: 'Montserrat', serif;
+$headings-font-family: $primary-font;
+$font-family-base:  $secondary-font;
+
+//HEADINGS
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 4;
+$h2-font-size: $font-size-base * 3;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+//LINKS
+$link-color: $primary-color;
+$link-decoration: underline;
+$link-hover-color:          darken($link-color, 15%);
+$link-hover-decoration:     underline;
+
+
+//BUTTON
+.btn {
+	text-transform: capitalize;
+
+	&:hover {
+		background: secondary-color;
+	}
+}
+
+$btn-padding-y: 1rem;
+$btn-padding-x: 2rem;
+$btn-border-radius: 0;
+
+
+//HEADER
+.main-header-content {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 1000px;
+
+    p {
+	    font-family: $secondary-font;
+		font-weight: bold;
+		font-size: 1rem;
+    }
+
+    h1 {
+    	font-size: 6rem;
+    }
+
+    .btn {
+    	margin-top: 3rem;
+    }
+}
+
+.main-header-carousel-nav {
+	position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 99;
+
+    ul {
+    	li {
+    		text-align: center;
+    		list-style: none;
+    		width: 30px;
+    		height: 30px;
+    		line-height: 30px;
+    		color: #fff;
+    		margin-bottom: 15px;
+    		cursor: pointer;
+    	}
+
+    	li.active {
+    		background: $primary-color;
+    	}
+    }
+}
+
+//SECTIONS
+section {
+    padding: 7em 0;
+}
+
+//FACILITY
+
+.facility-container {
+    position: relative;
+    min-height: 600px;
+}
+
+.facility-box {
+    position: absolute;
+    box-shadow: 2px 2px 10px #0000006b;
+}
+
+.facility-box-1 {
+    @extend .facility-box;
+    top: 0;
+    right: 0;
+}
+
+.facility-box-2 {
+    @extend .facility-box;
+    top: 200px;
+    right: 50px;
+}
+
+.facility-box-3 {
+    @extend .facility-box;
+    top: 20px;
+    left: 0;
+}
+
+.rooms-content {
+    padding: 7rem 3rem;
+
+    h2, blockquote {
+        color: #fff;
+    }
+
+    .rooms-rating {
+
+        font-size: 0.6rem;
+        margin-top: 4rem;
+        margin-left: -40px !important;
+        color: #fbd05e;
+
+        li {
+            margin-right: 0.3rem;
+            list-style: none;
+            display: inline-block;
+        }
+    }
+
+    .rooms-reviewer {
+        margin-top: 2rem;
+        img {
+            border-radius: 50px;
+            float: left;
+            margin-right: 2rem; 
+        }
+
+        p {
+            color: #8e3f97;
+        }
+
+        span {
+            color: #fff;
+        }
+        
+    }
+
+    blockquote {
+        font-style: italic;
+    }
+}
+

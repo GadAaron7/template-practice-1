@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,UAWC;EAVC,WAAW,EAAE,qBAAqB;EAClC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,YAAY,ECDgB,IAAI;EDEhC,GAAG,EAAE,kCAA0C;EAC/C,GAAG,EAAE,oSAI+D;AAGtE,IAAK;EACH,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG",
+"sources": ["../../../scss/font-awesome/scss/regular.scss","../../../scss/font-awesome/scss/_variables.scss"],
+"names": [],
+"file": "regular.css"
+}
