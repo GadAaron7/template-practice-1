@@ -4343,6 +4343,32 @@ section {
   .rooms-content blockquote {
     font-style: italic; }
 
+.facility-carousel-slide {
+  background: url(../images/img_1.jpg);
+  background-size: cover;
+  background-image: no-repeat;
+  min-height: 850px; }
+
+.room-types-section {
+  background: #f2f2f2; }
+
+.room-types-container h2 {
+  margin-bottom: 7rem; }
+.room-types-container h4 {
+  text-transform: capitalize;
+  color: #141214; }
+.room-types-container .room-types-content {
+  padding: 2em;
+  position: relative;
+  background: #fff; }
+.room-types-container .room-types-price {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -38px;
+  background: #fff;
+  padding: 1rem; }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -8379,7 +8405,7 @@ button.close {
   width: 15%;
   color: #fff;
   text-align: center;
-  opacity: 0.5; }
+  opacity: 1; }
   .carousel-control-prev:hover, .carousel-control-prev:focus,
   .carousel-control-next:hover,
   .carousel-control-next:focus {
