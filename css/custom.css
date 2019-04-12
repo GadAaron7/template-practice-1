@@ -4343,4 +4343,64 @@ section {
   .rooms-content blockquote {
     font-style: italic; }
 
+.facility-carousel-slide {
+  background: url(../images/img_1.jpg);
+  background-size: cover;
+  background-image: no-repeat;
+  min-height: 850px; }
+
+.room-types-section {
+  background: #f2f2f2; }
+
+.room-types-container h2 {
+  margin-bottom: 7rem; }
+.room-types-container .room-types-column {
+  box-shadow: 1px 1px 15px #0000002e; }
+  .room-types-container .room-types-column h4 {
+    text-transform: capitalize;
+    color: #141214; }
+  .room-types-container .room-types-column .room-types-content {
+    padding: 2em;
+    position: relative;
+    background: #fff; }
+  .room-types-container .room-types-column .room-types-price {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -38px;
+    background: #fff;
+    padding: 1rem; }
+  .room-types-container .room-types-column .btn-book {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px; }
+
+footer {
+  padding-top: 7em;
+  padding-bottom: 3em; }
+  footer hr {
+    width: 100%;
+    border-width: 2px; }
+  footer .footer-container {
+    font-size: .8em; }
+    footer .footer-container .footer-links {
+      margin: 0 0 2em 0;
+      padding: 0; }
+      footer .footer-container .footer-links li {
+        margin-right: 20px;
+        display: inline-block;
+        list-style: none; }
+        footer .footer-container .footer-links li a {
+          color: #141214;
+          text-transform: capitalize;
+          text-decoration: none; }
+    footer .footer-container .footer-contact {
+      margin: 0;
+      padding: 0; }
+      footer .footer-container .footer-contact li {
+        list-style: none; }
+      footer .footer-container .footer-contact span {
+        color: #141214; }
+
 /*# sourceMappingURL=custom.css.map */
